@@ -4,6 +4,7 @@
 
 ## Contents
 
-- <b>Day 1</b> - [Working with Variables in Python to Manage Data]()
+- <b>Day 1</b> - [Band Name Generator](https://github.com/mianazan099/100DaysOfPython/tree/main/1_Band-Name-Generator)
+- <b>Day 2</b> - [Tip Calculator](https://github.com/mianazan099/100DaysOfPython/tree/main/2_Tip-Calulator)
 
 <p align="center">Please ⭐ this repository if you loved it !<br>< Happy Coding /><br><b>Mian Azan<b><br><a href="https://mianazan.com">Portfolio</a> | <a href="https://github.com/mianazan099">Github</a></p>
