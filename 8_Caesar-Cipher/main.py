@@ -14,7 +14,7 @@ def encode(text, shift, direction):
         else:
             if direction == 'encode':
                 final_word += alphabet[alphabet.index(n) + shift]
-            elif direction == 'decode':
+            else:
                 final_word += alphabet[alphabet.index(n) - shift]
     print(f'Here\'s the {direction}d result: {final_word}')
 
@@ -23,10 +23,13 @@ print(logo)
 while go_again == 'yes':
     direction = input(
         "Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
-    text = input("Type your message:\n").lower()
-    shift = int(input("Type the shift number:\n"))
-    encode(text, shift, direction)
-    go_again = input(
-        'Type \'yes\' if you want to go again. Otherwise type \'no\'.\n').lower()
-    if go_again == 'no':
-        print('Goodbye')
+    if direction == 'decode' or direction == 'encode':
+        text = input("Type your message:\n").lower()
+        shift = int(input("Type the shift number:\n"))
+        encode(text, shift, direction)
+        go_again = input(
+            'Type \'yes\' if you want to go again. Otherwise type \'no\'.\n').lower()
+        if go_again == 'no':
+            print('Goodbye')
+    else:
+        print('Invalid Choice')
