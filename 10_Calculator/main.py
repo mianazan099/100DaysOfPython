@@ -24,7 +24,9 @@ operations = {
     '*': multiply,
     '/': divide,
 }
-while True:
+
+
+def calculator():
     print(logo)
     num1 = float(input('What\'s the first number?: '))
     print('+\n-\n*\n/')
@@ -38,3 +40,7 @@ while True:
             f'Type \'y\' to continue calculating with {calculation}, or type \'n\' to start a new calculation: ').lower()
         num1 = calculation
     system('cls' or 'clear')
+    calculator()
+
+
+calculator()
