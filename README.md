@@ -14,5 +14,6 @@
 - <b>Day 8</b> - [Caesar Cipher](https://github.com/mianazan099/100DaysOfPython/tree/main/8_Caesar-Cipher)
 - <b>Day 9</b> - [Secret Auction](https://github.com/mianazan099/100DaysOfPython/tree/main/9_Secret-Auction)
 - <b>Day 10</b> - [Calculator](https://github.com/mianazan099/100DaysOfPython/tree/main/10_Calculator)
+- <b>Day 11</b> - [Blackjack](https://github.com/mianazan099/100DaysOfPython/tree/main/11_Blackjack)
 
 <p align="center">Please ⭐ this repository if you loved it !<br>< Happy Coding /><br><b>Mian Azan<b><br><a href="https://mianazan.com">Portfolio</a> | <a href="https://github.com/mianazan099">Github</a></p>
