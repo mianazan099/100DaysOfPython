@@ -44,3 +44,5 @@ def calculator():
 
 
 calculator()
+
+# you can also use: eval()
