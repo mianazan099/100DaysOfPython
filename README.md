@@ -15,5 +15,6 @@
 - <b>Day 9</b> - [Secret Auction](https://github.com/mianazan099/100DaysOfPython/tree/main/9_Secret-Auction)
 - <b>Day 10</b> - [Calculator](https://github.com/mianazan099/100DaysOfPython/tree/main/10_Calculator)
 - <b>Day 11</b> - [Blackjack](https://github.com/mianazan099/100DaysOfPython/tree/main/11_Blackjack)
+- <b>Day 12</b> - [Guess The Number](https://github.com/mianazan099/100DaysOfPython/tree/main/12_Guess-The-Number)
 
 <p align="center">Please ⭐ this repository if you loved it !<br>< Happy Coding /><br><b>Mian Azan<b><br><a href="https://mianazan.com">Portfolio</a> | <a href="https://github.com/mianazan099">Github</a></p>
