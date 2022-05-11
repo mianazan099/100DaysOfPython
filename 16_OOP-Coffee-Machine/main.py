@@ -16,7 +16,3 @@ from money_machine import MoneyMachine
 # moneymachine = MoneyMachine()
 # moneymachine.report()
 # moneymachine.make_payment(12)
-accessKey = "y9IofoQ3_Bl0ygwIcr34gKOFmafd_M9K-GEofQzlAAY"
-secretKey = "HHXVec2ivYNKHyoK_FL2NNLRJ48khC2LO-mV2lwEOjw"
-URL = f"https://api.unsplash.com/photos/?client_id={accessKey}"
-print(URL)
