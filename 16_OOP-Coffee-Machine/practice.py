@@ -1,6 +1,3 @@
-
-
-############ Practice ############
 # from turtle import Turtle
 # import turtle
 # timmy = Turtle()
