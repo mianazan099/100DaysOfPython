@@ -18,5 +18,8 @@
 - <b>Day 12</b> - [Guess The Number](https://github.com/mianazan099/100DaysOfPython/tree/main/12_Guess-The-Number)
 - <b>Day 13</b> - [Debugging](https://github.com/mianazan099/100DaysOfPython/tree/main/13_Debugging)
 - <b>Day 14</b> - [Higher Lower](https://github.com/mianazan099/100DaysOfPython/tree/main/14_Higher-Lower)
+- <b>Day 15</b> - [Coffee Machine](https://github.com/mianazan099/100DaysOfPython/tree/main/15_Coffee-Machine)
+- <b>Day 16</b> - [OOP Coffee Machine](https://github.com/mianazan099/100DaysOfPython/tree/main/16_OOP-Coffee-Machine)
+- <b>Day 17</b> - [Quiz Game](https://github.com/mianazan099/100DaysOfPython/tree/main/17_Quiz-Game)
 
 <p align="center">Please ⭐ this repository if you loved it !<br>< Happy Coding /><br><b>Mian Azan<b><br><a href="https://mianazan.com">Portfolio</a> | <a href="https://github.com/mianazan099">Github</a></p>
