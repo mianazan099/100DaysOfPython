@@ -1,9 +1,4 @@
-from tokenize import String
-
-
 class Question:
-    def __init__(self, text: String) -> None:
-        self.text = text
-        self.answer = ''
-
-question = Question()
+    def __init__(self, q_text, q_answer) -> None:
+        self.text = q_text
+        self.answer = q_answer
