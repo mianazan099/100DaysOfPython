@@ -1,10 +1,10 @@
-import random
+from random import choice
 from wordlist import word_list
 from art import logo, stages
 from os import system
 lives = 6
-chosen_word = random.choice(word_list)
 word_array = []
+chosen_word = choice(word_list)
 for _ in chosen_word:
     word_array.append('_')
 print(logo)
