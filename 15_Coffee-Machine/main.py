@@ -1,35 +1,14 @@
-MENU = {
-    "espresso": {
-        "ingredients": {
-            "water": 50,
-            "coffee": 18,
-        },
-        "cost": 1.5
-    },
-    "latte": {
-        "ingredients": {
-            "water": 200,
-            "milk": 150,
-            "coffee": 24,
-        },
-        "cost": 2.5
-    },
-    "cappuccino": {
-        "ingredients": {
-            "water": 250,
-            "milk": 100,
-            "coffee": 24,
-        },
-        "cost": 3.0
-    }
-}
-resources = {
-    "water": 300,
-    "milk": 200,
-    "coffee": 100,
-}
+from data import MENU, resources
+
 profit = 0
 is_on = True
+
+
+def print_report():
+    print(f'Water: {resources["water"]}ml')
+    print(f'Milk: {resources["milk"]}ml')
+    print(f'Coffee: {resources["coffee"]}g')
+    print(f'Money: ${profit}')
 
 
 def sufficient_resources(ingredients):
@@ -73,10 +52,7 @@ while is_on:
     if choice == 'off':
         is_on = False
     elif choice == 'report':
-        print(f'Water: {resources["water"]}ml')
-        print(f'Milk: {resources["milk"]}ml')
-        print(f'Coffee: {resources["coffee"]}g')
-        print(f'Money: ${profit}')
+        print_report()
     elif choice == 'espresso' or choice == 'latte' or choice == 'cappuccino':
         drink = MENU[choice]
         if sufficient_resources(drink['ingredients']):

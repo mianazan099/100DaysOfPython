@@ -1,11 +1,13 @@
+from os import system
 from random import choice
 from art import logo, vs
 from game_data import data
-from os import system
+
 choice1 = choice(data)
 choice2 = choice(data)
 score = 0
 game_over = False
+
 system('clear')
 while not game_over:
     while choice1 == choice2:
@@ -13,8 +15,7 @@ while not game_over:
     choice1_num = choice1['follower_count']
     choice2_num = choice2['follower_count']
     print(logo)
-    if score != 0:
-        print(f'You\'re right! Current score: {score}.')
+    print(f'You\'re right! Current score: {score}.')
     print(
         f'Compare A: {choice1["name"]}, a {choice1["description"]}, from {choice1["country"]}.')
     print(vs)

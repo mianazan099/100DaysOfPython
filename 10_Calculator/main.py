@@ -30,15 +30,18 @@ def calculator():
     print(logo)
     num1 = float(input('What\'s the first number?: '))
     print('+\n-\n*\n/')
-    continue_calc = 'y'
-    while continue_calc == 'y':
+    continue_calc = True
+    while continue_calc:
         operation = input('Pick an operation: ')
         num2 = float(input('What\'s the next number?: '))
-        calculation = operations[f'{operation}'](num1, num2)
+        calculation = operations[operation](num1, num2)
         print(f'{num1} {operation} {num2} = {calculation}')
-        continue_calc = input(
+        continue_c = input(
             f'Type \'y\' to continue calculating with {calculation}, or type \'n\' to start a new calculation: ').lower()
-        num1 = calculation
+        if continue_c != 'y':
+            continue_calc = False
+        else:
+            num1 = calculation
     system('cls' or 'clear')
     calculator()
 

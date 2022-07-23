@@ -5,12 +5,13 @@ from money_machine import MoneyMachine
 menu = Menu()
 coffee_maker = CoffeeMaker()
 money_machine = MoneyMachine()
-is_on = True
+machine_on = True
 
-while is_on:
+while machine_on:
     choice = input(f'What would you like? ({menu.get_items()}): ').lower()
+
     if choice == 'off':
-        is_on = False
+        machine_on = False
     elif choice == 'report':
         coffee_maker.report()
         money_machine.report()

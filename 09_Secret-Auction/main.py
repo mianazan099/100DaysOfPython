@@ -1,6 +1,6 @@
 from os import system
 from art import logo
-print(logo)
+
 bidders = {}
 other_bidders = True
 
@@ -11,6 +11,7 @@ def get_info():
     bidders[name] = bid
 
 
+print(logo)
 while other_bidders:
     get_info()
     other_bidders = input(
@@ -19,10 +20,12 @@ while other_bidders:
         system('clear' or 'cls')
     else:
         other_bidders = False
+
 person = ''
 bid = 0
 for n in bidders:
     if bidders[n] > bid:
         bid = bidders[n]
         person = n
+
 print(f"The winner is {person} with a bid of ${int(bid)}")

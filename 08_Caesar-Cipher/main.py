@@ -2,7 +2,7 @@ from art import logo
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
             'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 alphabet += alphabet
-go_again = 'yes'
+cipher_on = True
 
 
 def encode(text, shift, direction):
@@ -20,7 +20,7 @@ def encode(text, shift, direction):
 
 
 print(logo)
-while go_again == 'yes':
+while cipher_on:
     direction = input(
         "Type 'encode' to encrypt, type 'decode' to decrypt:\n").lower()
     if direction == 'decode' or direction == 'encode':
@@ -29,7 +29,8 @@ while go_again == 'yes':
         encode(text, shift, direction)
         go_again = input(
             'Type \'yes\' if you want to go again. Otherwise type \'no\'.\n').lower()
-        if go_again == 'no':
+        if go_again != 'yes':
             print('Goodbye')
+            cipher_on = False
     else:
         print('Invalid Choice')
