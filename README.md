@@ -21,5 +21,6 @@
 - <b>Day 15</b> - [Coffee Machine](https://github.com/mianazan099/100DaysOfPython/tree/main/15_Coffee-Machine)
 - <b>Day 16</b> - [OOP Coffee Machine](https://github.com/mianazan099/100DaysOfPython/tree/main/16_OOP-Coffee-Machine)
 - <b>Day 17</b> - [Quiz Game](https://github.com/mianazan099/100DaysOfPython/tree/main/17_Quiz-Game)
+- <b>Day 18</b> - [The Hirst Painting](https://github.com/mianazan099/100DaysOfPython/tree/main/18_The-Hirst-Painting)
 
 <p align="center">Please ⭐ this repository if you loved it !<br>< Happy Coding /><br><b>Mian Azan<b><br><a href="https://mianazan.com">Portfolio</a> | <a href="https://github.com/mianazan099">Github</a></p>
