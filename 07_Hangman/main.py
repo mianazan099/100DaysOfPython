@@ -1,4 +1,5 @@
-from os import system
+from os import name
+import subprocess
 from random import choice
 from art import logo, stages
 from wordlist import word_list
@@ -14,8 +15,7 @@ print(logo)
 
 while lives > 0 and '_' in word_array:
     guess = input('Guess a letter: ').lower()
-    system('clear')
-
+    subprocess.run('cls' if name == 'nt' else 'clear', shell=True)
     if guess in word_array:
         print(f'You\'ve already guessed {guess}')
 
