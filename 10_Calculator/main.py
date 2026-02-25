@@ -1,5 +1,6 @@
 from art import logo
-from os import system
+from os import name
+import subprocess
 
 
 def add(x, y):
@@ -42,7 +43,7 @@ def calculator():
             continue_calc = False
         else:
             num1 = calculation
-    system('cls' or 'clear')
+    subprocess.run('cls' if name == 'nt' else 'clear', shell=True)
     calculator()
 
 

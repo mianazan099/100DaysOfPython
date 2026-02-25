@@ -1,5 +1,6 @@
 import random
-from os import system
+from os import name
+import subprocess
 from art import logo
 
 
@@ -69,7 +70,7 @@ while play_game:
     want_to_play = input(
         'Do you want to play a game of Blackjack? Type \'y\' or \'n\': ').lower()
     if want_to_play == 'y':
-        system('cls' or 'clear')
+        subprocess.run('cls' if name == 'nt' else 'clear', shell=True)
         blackjack()
         user_cards = []
         computer_cards = []

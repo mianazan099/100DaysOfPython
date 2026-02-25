@@ -1,4 +1,5 @@
-from os import system
+from os import name
+import subprocess
 from random import choice
 from art import logo, vs
 from game_data import data
@@ -8,7 +9,7 @@ choice2 = choice(data)
 score = 0
 game_over = False
 
-system('clear')
+subprocess.run('cls' if name == 'nt' else 'clear', shell=True)
 while not game_over:
     while choice1 == choice2:
         choice2 = choice(data)
@@ -30,7 +31,7 @@ while not game_over:
         score += 1
     else:
         game_over = True
-    system('clear')
+    subprocess.run('cls' if name == 'nt' else 'clear', shell=True)
     choice1 = choice2
     choice2 = choice(data)
 print(logo)

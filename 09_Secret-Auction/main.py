@@ -1,4 +1,5 @@
-from os import system
+from os import name
+import subprocess
 from art import logo
 
 bidders = {}
@@ -17,7 +18,7 @@ while other_bidders:
     other_bidders = input(
         "Are there any other bidders? Type 'yes' or 'no'.\n").lower()
     if other_bidders == 'yes':
-        system('clear' or 'cls')
+        subprocess.run('cls' if name == 'nt' else 'clear', shell=True)
     else:
         other_bidders = False
 
